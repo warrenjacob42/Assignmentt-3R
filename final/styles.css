@@ -269,7 +269,10 @@ h1{
     margin-bottom: 7rem;
 }
 
-
+.links a{
+  font-size: 2em;
+  color:cornsilk;
+}
 
 
 .btn{

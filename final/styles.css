@@ -274,6 +274,13 @@ h1{
   color:cornsilk;
 }
 
+.formbold-mb-5 h2{
+  font-size: 3rem;
+  color: ghostwhite;
+  padding: 30px;
+  margin: 0;
+  align-content: center;
+}
 
 .btn{
     display: flex;

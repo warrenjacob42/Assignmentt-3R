@@ -60,6 +60,7 @@ body {
 }
 #check {display: none;}
 
+/* Welcome */
 
 .welcome-section{
     width: 100%;
@@ -98,6 +99,8 @@ h1{
     text-align: center;
     background-color: #110d22 ;
 }
+
+/* About*/
 
 .about{
     display: flex;
@@ -222,7 +225,7 @@ h1{
     width: 100%;
   }
 
-  /*end*/
+  /*End of Form*/
 
 .contact a{
     color: azure;
@@ -231,9 +234,10 @@ h1{
     padding: 20px;
 }
 
-h2{
+.about h2{
     font-size: 3rem;
     color: ghostwhite;
+    padding: 50px;
 }
 
 .project-img{

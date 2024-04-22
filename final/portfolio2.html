@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name ="viewport" content="width-device-width, initial-scale=1.0">
+       <title>Warren's Portfoilio Website</title> 
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="stylesheet" href="styles2.css">
+       <link rel="stylesheet" href="lightbox.css">
+       <header class="header">
+        <div class="topnav" id="navbar">
+            <img src="images/white-logo.png" class="logo" alt="Logo">
+                <div class="right"> 
+                    <a"#"></a>
+                    <a href="index.html" class="active">Home</a>
+                    <a href="index.html">About</a>
+                    <a href="index.html">Portfolio</a>
+                    <a href="index.html">Contact</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+        </div> 
+        </header>
+    </head>
+    <body>
+
+      <div class="container">
+            <div class="gallery">
+              <a href="images/album1.jpg" data-lightbox="mygallery" data-title="Alternative Pop Album Design">
+                <img src="images/album1.jpg" alt="album1">
+              </a>
+
+              <a href="images/album1-back-cover.jpg" data-lightbox="mygallery" data-title="Alternative Pop Album Design (Back)">
+                <img src="images/album1-back-cover.jpg" alt="album1-back-cover">
+              </a>
+
+              <a href="images/album2.jpg" data-lightbox="mygallery" data-title="R&B Album Design">
+                <img src="images/album2.jpg" alt="album2">
+              </a>
+
+              <a href="images/album2-back-cover.jpg" data-lightbox="mygallery" data-title="R&B Album Design (Back)">
+                <img src="images/album2-back-cover.jpg" alt="album2-back-cover">
+              </a>
+
+              <a href="images/small/everyday-poster-1.jpg" data-lightbox="mygallery" data-title="Everyday Poster: Toilet">
+                <img src="images/small/everyday-poster-1.jpg" alt="everyday-poster-1">
+              </a>
+
+              <a href="images/small/everyday-poster-2.png" data-lightbox="mygallery" data-title="Everyday Poster: Living In A Dorm Room">
+                <img src="images/small/everyday-poster-2.png" alt="everyday-poster-2">
+              </a>
+
+              <a href="images/small/everyday-poster-3.jpg" data-lightbox="mygallery" data-title="Everyday Poster: Using The Microwave">
+                <img src="images/small/everyday-poster-3.jpg" alt="everyday-poster-3">
+              </a>
+
+              <a href="images/small/everyday-poster-4.jpg" data-lightbox="mygallery" data-title="Everyday Poster: Recycling">
+                <img src="images/small/everyday-poster-4.jpg" alt="everyday-poster-4">
+              </a>
+
+              <a href="images/small/nuit-blanche-poster.png" data-lightbox="mygallery" data-title="Nuit Blanche Poster">
+                <img src="images/small/nuit-blanche-poster.png" alt="nuit-blanche-poster">
+              </a>
+
+              <a href="images/small/typeface-poster-1.png" data-lightbox="mygallery" data-title="Typeface Specimen Poster 1: Pliego">
+                <img src="images/small/typeface-poster-1.png" alt="typeface-poster-1">
+              </a>
+
+              <a href="images/small/typeface-poster-2.png" data-lightbox="mygallery" data-title="Typeface Specimen Poster 2: Pliego">
+                <img src="images/small/typeface-poster-2.png" alt="typeface-poster-2">        
+              </a>
+                <a href="images/small/typeface-poster-3.png" data-lightbox="mygallery" data-title="Typeface Specimen Poster 3: Pliego">
+                  <img src="images/small/typeface-poster-3.png" alt="typeface-poster-3">
+              </a>
+            </div>
+      </div>
+        
+      <div class="portfolio-link">
+        <p>Check out more works:<br>
+            <a href="https://youtu.be/zm41xM2S4U8?si=nq_Ss3BazZkIIzoZ" target="_blank">Video Links</a>
+            <a href="https://www.instagram.com/pheebs.and.milo?igsh=cTBtZ3ljd2N5dGY0&utm_source=qr" target="_blank">Photography Works</a>
+        </p>
+          </div>  
+    
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; 2024 WRJ, All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="privacy.html">Privacy</a>
+                <a href="terms.html">Terms of Use</a>
+            </div>
+        </div>
+    </footer>
+    </body>
+</html>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("navbar");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>  
+<script src="lightbox-plus-jquery.min.js"></script> 
+         

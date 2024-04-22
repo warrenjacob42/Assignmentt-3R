@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warren's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<body>
+    <header>
+    <nav>
+        <ul class='nav-bar'>
+            <li class='logo'><a href='#'><img src='images/white-logo.png'/></a></li>
+            <input type='checkbox' id='check' />
+            <span class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+        </ul>
+    </nav>
+    </header>
+
+    <section id="welcome-section" class="welcome-section">
+        <h1>Hello, I am Warren </h1>
+        <p>Welcome to my page</p>
+    </section>  
+
+    <section id="about" class="about">
+        <h2>A little introduction of myself...</h2>
+        <p>I am currently studying at Humber College Multimedia Design and Development Program.
+            <br>
+            I was born in Taiwan.
+            <br>
+            I am a designer, and I like to design things.
+            <br>
+            Besides doing design, I like to do photography as a hobby, mostly pet photography(pets are awesome!)</p>
+    </section>
+        
+    <section id="portfolio" class="portfolio">
+        <h2>Recent Projects</h2>
+        <div class="projects-grid">
+            <a>
+                <img src="images/small/everyday-poster-2.png" alt="Everyday Poster: Living in Dorm Room" class="project-img"/>
+                <p class="project-title">Everyday Poster</p>
+            </a>
+            <a>
+                <img src="images/small/nuit-blanche-poster.png" alt="Nuit-Blanche-Poster" class="project-img"/>
+                <p class="project-title">Nuit Blanche Poster</p>
+            </a>
+            <a>
+                <img src="images/small/typeface-poster-1.png" alt="Typeface-Specimen-Poster-Pliego" class="project-img"/>
+                <p class="project-title">Typeface Specimen Poster</p>
+            </a>
+        </div>
+        <div class="links">
+        <a href="portfolio2.html" target="_self"><b>More Portfolio Works</b></a>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="formbold-main-wrapper">
+            <div class="formbold-form-wrapper">
+              <form action="#" method="POST">
+                <div class="formbold-mb-5">
+                  <h2>Contact and Follow</h2>
+                  <label for="name" class="formbold-form-label"> Full Name </label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Full Name"
+                    class="formbold-form-input"
+                  />
+                </div>
+
+                <div class="formbold-mb-5">
+                  <label for="email" class="formbold-form-label"> Email Address </label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Enter your email"
+                    class="formbold-form-input"
+                  />
+                </div>
+
+                <div class="formbold-mb-5">
+                  <label for="subject" class="formbold-form-label"> Subject </label>
+                  <input
+                    type="text"
+                    name="subject"
+                    id="subject"
+                    placeholder="Enter your subject"
+                    class="formbold-form-input"
+                  />
+                </div>
+                <div class="formbold-mb-5">
+                  <label for="message" class="formbold-form-label"> Message </label>
+                  <textarea
+                    rows="6"
+                    name="message"
+                    id="message"
+                    placeholder="Type your message"
+                    class="formbold-form-input"
+                  ></textarea>
+                </div>
+                <div>
+                  <button class="formbold-btn">Submit</button>
+                  <a href="https://www.instagram.com/pheebs.and.milo?igsh=cTBtZ3ljd2N5dGY0&utm_source=qr" id="profile-link" target="_blank" style="margin-left: 300px;">Instagram</a>
+                </div>
+              </form>
+            </div>
+          </div>
+       
+    </section>
+</body>
+
+<footer class="footer">
+    <div class="footer-text">
+        <p>&copy; 2024 WRJ, All Rights Reserved.</p>
+        <div class="footer-links">
+            <a href="privacy.html">Privacy</a>
+            <a href="terms.html">Terms of Use</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
